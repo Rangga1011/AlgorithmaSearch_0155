@@ -17,7 +17,7 @@ void input()
             cout << "\nArray should have minimum 1 and maximum 20 elements.\n\n";
     }
     // Accept array elements
-    cout << "\n--------------------\n";
+    cout << "\n----------------------\n";
     cout << " Enter array elements \n";
     cout << "----------------------\n";
     for (i = 0; 1 < n; i++)
@@ -30,10 +30,15 @@ void input()
 void LinearSearch()
 {
     char ch;
-    int ctr;
+    int ctr;  // number of comparisons
     int item;
-    
 
+    do
+    {
+        // accept the number to be searched
+        cout << "\nEnter the element you want to search: "; // step 1
+        cin >> item;
+    }
 }
 
 
